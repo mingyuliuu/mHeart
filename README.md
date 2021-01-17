@@ -1,5 +1,10 @@
 # MHeart
 
+MHeart is a website developed during Hack the North in 2021.  
+Authors: Mingyu Liu, Raven Xu, Zimeng Wang
+
+*MHeart -- Always here(**hear**) for you*
+
 ## Inspiration
 During the Covid-19 pandemic, I often feel depressed and detached from other people, the lack of social interaction had a 
 drastic change on my life. There are thoughts and issues that I would like to talk to others about, but I am afraid that 
