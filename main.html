@@ -1,0 +1,228 @@
+<!doctype html>
+<html>
+    <link rel="stylesheet" href="styles.css">
+    <head>
+        <meta charset="utf-8">
+      <title>Enter a title, displayed at the top of the window.</title>
+    </head>
+    <!-- The information between the BODY and /BODY tags is displayed.-->
+    <body>
+        
+        <div id="titleBar">
+
+            <div id="title">
+                <img src="logo.jpg" style="height: 60px; margin-left: 50%; margin-top: 5%;">
+            </div>
+
+            <a id="link1"; href="#containerMiddle" style="font-size: 17px; text-align: center; margin-left: 60%; 
+            border-bottom: double 1.5px purple; text-decoration:none; margin-top: 3%; margin-bottom: 2%;">What We Do</a>
+            <a id="link2"href="#containerBottom" style="font-size: 17px; text-align: center; margin-left: 2%; 
+            border-bottom: double 1.5px purple; text-decoration:none; margin-top: 3%; margin-bottom: 2%;">Who We Are</a>
+          
+        </div>
+
+        <div id="containerTop">
+
+            <div id="leftBox">
+                <p style="height: 2%;"></p>
+                <img id="chatBotImg" src="icon2.jpg" style="height: 40px; width: 40px; margin-left: 10%; border-radius: 50%;">
+                <p id="botTextValue" style="background-color: lightpink; padding: 5px 20px 5px 20px; margin-left: 1%;
+                                            font-size: 16px; width: 35%; overflow-wrap: break-word; font-family: monospace;
+                                            border: solid 1px white; border-radius: 15px 40px 30px 40px;">
+                                            ......</p> 
+                <p id="myTextValue" style="background-color: lightpink; padding: 5px 20px 5px 20px; margin-left: 30%;
+                                           font-size: 16px; border: solid 1px white; border-radius: 40px 15px 40px 30px;
+                                           width: 35%; overflow-wrap: break-word; font-family: monospace;">
+                                           ......</p>
+                <img id="avatarImg" src="icon1.jpg" style="height: 40px; width: 40px; margin-left: 1%; border-radius: 50%;">
+                <input type = "text" id = "textEntered" style="padding-left: 10px;
+                padding-right: 10px; font-size: 18px; border: solid 2.5px white; border-radius: 5px;">
+                <button type="button" onclick="myFunc()" style="background-color: lightblue;
+                border: solid 2.5px white; border-radius: 5px; font-size: 18px;">-></button>
+            </div>
+          
+            <div id="rightBox">
+                <div id="rightBox_Left">
+                    <p style="font-family:verdana; font-size: 16px; margin-left: 15%; text-align: justify; margin-top: 20%; 
+                    padding: 5% 5% 5% 5%; background-color: white; opacity: 0.6; border-radius: 20px; vertical-align: middle;">
+                    "The tears you are currently shedding will not last forever. Better days are coming your way faster than anything scientists can measure. Just hang on a little."
+                    <br><br>
+                    "The foundation of true happiness is optimism."
+                    <br><br>
+                    "Success loses its delicious taste if it’s achieved with little or no effort."
+                    <br><br>
+                    "Happiness always knocks on the doors of those that think positive."
+                    <br><br>
+                    "The loftier the mountains on your way to success are, the more spectacular your accomplishments become."
+                    <br>
+                    </p>
+                </div>
+                <div id="rightBox_Right">
+                    <div id="carousel1" style="border-radius: 10px; margin-left: 20%; margin-top: 30%; vertical-align: middle;">
+                        <div class="slide">
+                            <img src="cute1.jpg" style="height: 150px; width: 206.25px;"/>
+                        </div>
+                        <div class="slide">
+                            <img src="cute2.jpg" style="height: 150px; width: 206.25px;"/>
+                        </div>
+                        <div class="slide">
+                            <img src="cute3.jpg" style="height: 150px; width: 206.25px;"/>
+                        </div>
+                        <div class="slide">
+                            <img src="cute4.jpg" style="height: 150px; width: 206.25px;"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          
+        </div>
+
+
+        <div id="containerMiddle" style="margin-top: 2%;">
+
+            <div id="about">
+                <p id="aboutTitle" style="font-size: 30px; text-align: center; margin-left: 33%; 
+                margin-right: 33%; border-bottom: double 2px black; height: 60px;">What We Do</p>
+                
+                <p id="aboutContent" style="font-size: 18px; text-align: center; margin-left: 10%; 
+                margin-right: 10%;">MHeart is a place where you can speak out 
+                    your heart, to express feelings that you otherwise cannot express.<br>
+                    We got the inspiration because the lack of social interaction has had a drastic change 
+                    on our lives during the Covid-19 pandemic. We would like to share thoughts and issues 
+                    but we are just too shy and are afraid that people would not listen.<br>
+                    This is essentially where MHeart, a website that you can talk to and tell your problems 
+                    to, comes into play. The website provides a platform which takes advantage of FaceBook’s
+                     Wit.ai that would provide an opportunity for the user to express their feelings and 
+                     react correspondingly as well as offer some inspirational quotes.</p>
+            </div>
+          
+            <div id="aboutPic">
+              <img id="aboutPicID" src="aboutPic.jpg">
+            </div>
+          
+        </div>
+
+        <div id="containerBottom" style="margin-top: 2%;">
+
+            <div id="resources">
+                
+                <div id="carousel2">
+                    <div id="rotate">
+                        <h3>Technologies We've Used</h3>
+                    </div>
+                    <div class="slide">
+                        <img src="fb-wit.jpg" style="height: 350px; object-fit: contain;"/>
+                    </div>
+                    <div class="slide">
+                        <img src="ml.jpg" style="height: 350px; object-fit: contain;"/>
+                    </div>
+                    <div class="slide">
+                        <img src="html-js-css.jpg" style="height: 350px; object-fit: contain;"/>
+                    </div>
+                    <div class="slide">
+                        <img src="json.jpg" style="height: 350px; object-fit: contain;"/>
+                    </div>
+                </div>
+            </div>
+          
+            <div id="authors">
+                <p id="aboutUs" style="font-size: 30px; text-align: center; margin-left: 33%; 
+                margin-right: 33%; border-bottom: double 2px black; height: 60px;">Who We Are</p>
+                
+                <p id="aboutContent" style="text-align: center;">.........................</p>
+            </div>
+          
+        </div>
+
+        
+        <script>
+            function responseFromWit(data) {
+                console.log("data from wit:");
+                console.log(JSON.stringify(data));
+
+            const intent = data.intents.length > 0 && data.intents[0] || "__foo__";
+
+  
+            switch (intent.name) {
+                case "hi":
+                    return handleInstruction();
+                case "user_name":
+                    return handleUserName(data);
+                case "feeling_sad":
+                    return handleSadHappy();
+                case "feeling_happy":
+                    return handleSadHappy();
+                case "feeling_not_sure":
+                    return handleNotSure();
+            }
+  
+            return handleGibberish();
+            }
+
+            function handleInstruction(){
+                return Promise.resolve(
+                "Hi there. I am MHeart. What’s yours?"
+            );
+            }
+
+            function handleGibberish() {
+                return Promise.resolve(
+                "Hello Hello! I am here to hear your problem! You can start by saying hi and finishing your story through saying phrases like，'That's it'，Hope you will feel better!!"
+            );
+            }
+
+
+
+
+            // ----------------------------------------------------------------------------
+            // handleUserName
+            function handleUserName(data) {
+            
+            const usrname = data.entities['wit$contact:contact'][0]['body'];
+            return Promise.resolve(
+                `Hello ${usrname}, how are you feeling today?`
+            );
+            }
+
+
+            // handleDistanceBetween
+
+            function handleSadHappy() {
+            return Promise.resolve(
+                `Tell me all about it! I will listen carefully!`
+            );
+            }
+
+            function handleNotSure() {
+            return Promise.resolve(
+                `Ok! You can tell me all about it! How about starting with one thing that makes you happy today? I’ll start. One thing that makes me happy today is meeting you, my lovely friend!`
+            );
+            }
+
+            function myFunc() { 
+                var x = document.getElementById("textEntered").value; 
+                if (x!="") {
+                    document.getElementById("myTextValue").innerHTML = x;
+                    const q = encodeURIComponent(x);
+                    const uri = 'https://api.wit.ai/message?v=20200513&q=' + q;
+                    const CLIENT_TOKEN = 'SWDJKE4NQQYYNUZN5MTYR5MIEVL3ZSYA';
+                    const auth = 'Bearer ' + CLIENT_TOKEN;
+                    fetch(uri, {headers: {Authorization: auth}})
+                        .then(res => res.json())
+                        .then(res => responseFromWit(res))
+                        .then(msg => {
+                            console.log(msg);
+                            document.getElementById("botTextValue").innerHTML = msg;
+                            document.getElementById("myTextValue").innerHTML = "......";
+                        })
+                    
+                    
+                    document.getElementById("textEntered").value = ""; 
+                }
+            } 
+            
+        </script> 
+    </body>
+    
+</html>
+
