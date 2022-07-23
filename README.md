@@ -4,6 +4,10 @@ MHeart is a website developed during Hack the North in 2021.
 Authors: Mingyu Liu, Raven Xu, Zimeng Wang
 
 *MHeart -- Always here(**hear**) for you*
+<p>
+<img width="600" src="https://user-images.githubusercontent.com/59714584/180584294-68f066c4-3365-450d-a68d-8b2131389dec.png">
+<img width="600" src="https://user-images.githubusercontent.com/59714584/180584293-676c9f41-e2f4-4021-aa85-fe0ade8fe148.png">
+</p>
 
 ## Inspiration
 During the Covid-19 pandemic, I often feel depressed and detached from other people, the lack of social interaction had a 
@@ -34,3 +38,6 @@ We would like to share thoughts and issues but we are just too shy and are afrai
 essentially where MHeart, a website that you can talk to and tell your problems to, comes into play. The website provides 
 a platform which takes advantage of FaceBook’s Wit.ai that would provide an opportunity for the user to express their feelings 
 and react correspondingly as well as offer some inspirational quotes.
+
+# Cheers!
+<img width="784" alt="Screen Shot 2021-01-18 at 11 21 03 AM" src="https://user-images.githubusercontent.com/59714584/180584207-f010b098-a458-4f20-adc5-3fd18de3e227.png">
